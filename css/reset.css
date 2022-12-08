@@ -20,3 +20,16 @@ picture,
 video {
 	max-width: 100%;
 }
+
+/* HEADER LINK / UL LI */
+.head-nav a{
+	text-decoration: none;
+	color: white;
+	margin: 0 3px;
+}
+
+.head-nav ul li{
+	list-style: none;
+	display: inline;
+}
+
