@@ -1,6 +1,6 @@
 /* HEADER */
 .head{
-    background-color: orange;
+    background-color: #FF6900;
     min-height: 50px;
     line-height: 50px;
     vertical-align: middle;
@@ -9,7 +9,7 @@
 .head-nav{
     display:flex;
     justify-content:space-between;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     vertical-align: middle;
 
 }
@@ -17,4 +17,96 @@
     max-height: 25px;
     vertical-align: middle;
 }
+/* MAIN */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+    padding-top: 30px;
+     /* gap: 10px; */
+    border-color:2px solid black;
 
+}
+/* PROFILE IN MAIN */
+.profile{
+    min-height:500px;
+    padding-bottom: 30px;
+    
+}
+.profile-top{
+    position: relative;
+    color: white;
+}
+.profile-top .sconto{
+    position: absolute;
+    bottom: 50px;
+    left:0;
+    background-color: red;
+    padding: 5px;
+    font-size: 13px;
+    padding: 5px;
+
+}
+.profile-top .sostenibilità{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    font-size: 13px;
+    padding: 5px;
+    background-color: green;
+
+}
+
+.last-sostenibile{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    font-size: 13px;
+    padding: 5px;
+    background-color: green;
+
+}
+
+.profile-top .heart{
+    position: absolute;
+    top:10px;
+    right: 0;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    font-size: 30px;
+    
+}
+.profile img{
+    max-height: 500px;
+}
+
+/* PROFILE BOTTOM */
+
+.price{
+    color: orangered;
+}
+.price-sconto{
+    text-decoration-line:line-through;
+    margin-left: 5px;
+}
+
+/* FOOTER */
+.footer{
+    background-color:#1A1A1A;
+    min-height: 80px;
+    /* line-height: 30px;
+    vertical-align: middle; */
+}
+
+.foot{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:20px 0;
+}
+
+.foot-left h4,
+.foot-nav h4{
+    color: white;
+}
