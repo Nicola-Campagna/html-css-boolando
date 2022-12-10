@@ -4,14 +4,15 @@
     min-height: 50px;
     line-height: 50px;
     vertical-align: middle;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .head-nav{
     display:flex;
     justify-content:space-between;
-    /* border: 1px solid black; */
     vertical-align: middle;
-
 }
 #head-logo{
     max-height: 25px;
@@ -23,15 +24,18 @@
     flex-wrap: wrap;
     justify-content:space-between ;
     padding-top: 30px;
-     /* gap: 10px; */
-    border-color:2px solid black;
-
 }
 /* PROFILE IN MAIN */
 .profile{
     min-height:500px;
-    padding-bottom: 30px;
-    
+    padding-top: 50px;
+    /* padding-bottom: 10px; */
+    position: relative;
+}
+.profile-2{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .profile-top{
     position: relative;
@@ -54,7 +58,6 @@
     font-size: 13px;
     padding: 5px;
     background-color: green;
-
 }
 
 .last-sostenibile{
@@ -64,7 +67,6 @@
     font-size: 13px;
     padding: 5px;
     background-color: green;
-
 }
 
 .profile-top .heart{
@@ -75,12 +77,31 @@
     color: black;
     padding: 5px 10px;
     font-size: 30px;
-    
+    cursor: pointer;
 }
+
+.heart:hover{
+    color: red;
+}
+
 .profile img{
     max-height: 500px;
 }
+.foto{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
+.foto:hover{
+    display: none;
+}
+
+.foto2:hover{
+    position: relative;
+    top: 0;
+    left:0;
+}
 /* PROFILE BOTTOM */
 
 .price{
@@ -95,8 +116,6 @@
 .footer{
     background-color:#1A1A1A;
     min-height: 80px;
-    /* line-height: 30px;
-    vertical-align: middle; */
 }
 
 .foot{
